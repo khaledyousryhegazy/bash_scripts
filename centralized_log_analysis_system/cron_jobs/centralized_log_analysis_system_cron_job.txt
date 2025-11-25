@@ -1,0 +1,2 @@
+Run a script every day at 2:00 AM
+0 2 * * * /mnt/work/devops/bash_projects/centralized_log_analysis_system/main.sh

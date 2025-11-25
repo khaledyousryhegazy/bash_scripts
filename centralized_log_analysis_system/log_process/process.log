@@ -1,0 +1,27 @@
+==========Starting Fetch Log==========
+[*][INFO] [2025-11-25] Starting Centralized Log Analysis System ...
+[*][INFO] Fetching logs from localhost
+receiving incremental file list
+
+sent 20 bytes  received 208 bytes  65.14 bytes/sec
+total size is 6,687  speedup is 29.33
+[*][INFO] Logs fetched successfully.
+[*][INFO] Process completed.
+==========Starting Disk Monitoring==========
+[*][INFO] Start creating SSH connection and get the disk health ...
+Total Disk: 742G , Usage: 73G , Disk Usage Percent: 11%
+[*][INFO] Process completed
+[2025-11-25 14:14:32,188] [INFO] [*] ==========Starting parse file==========
+[2025-11-25 14:14:32,189] [INFO] [*] Start loop on files to extract info and store it in json files ..
+[2025-11-25 14:14:32,189] [INFO] [*] Parsing audit.log file
+[2025-11-25 14:14:32,190] [INFO] [*] Parsing app.log file
+[2025-11-25 14:14:32,191] [INFO] [*] Parsing nginx_access.log file
+[2025-11-25 14:14:32,192] [INFO] [*] Parsing auth.log file
+[2025-11-25 14:14:32,192] [INFO] [*] Parsing sys.log file
+[2025-11-25 14:14:32,193] [INFO] [*] Parsing kernel.log file
+[2025-11-25 14:14:32,193] [INFO] [*] Process completed successfully.
+[2025-11-25 14:14:32,319] [INFO] [*] ==========Start sending message==========
+[2025-11-25 14:14:32,789] [INFO] [*] Message The Error Count Is 22 in nginx_access.json sended successfully
+[2025-11-25 14:14:32,789] [INFO] [*] Process completed
+[2025-11-25 14:14:33,171] [INFO] [*] Message The Error Count Is 24 in app.json sended successfully
+[2025-11-25 14:14:33,171] [INFO] [*] Process completed

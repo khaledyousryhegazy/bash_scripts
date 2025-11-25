@@ -1,0 +1,5 @@
+Nov 24 09:14:01 kernel: [12345.678901] usb 1-2: device descriptor read/64, error -32
+Nov 24 09:14:02 kernel: [12345.678902] CPU soft lockup detected on CPU 0
+Nov 24 09:14:05 kernel: [12345.678903] eth0: link is down
+Nov 24 09:14:07 kernel: [12345.678904] eth0: link is up - 1000 Mbps
+Nov 24 09:14:09 kernel: [12345.678905] EXT4-fs error (device sda1): ext4_find_entry: inode #2: comm bash: reading directory lblock 0

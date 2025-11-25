@@ -1,0 +1,11 @@
+{
+    "error_count": 22,
+    "warnings_count": 1,
+    "failed_login_attempts_count": 0,
+    "accepted_login_attempts_count": 0,
+    "successful_requests": 3,
+    "unauth_requests": 1,
+    "server_error_requests": 1,
+    "get_requests_count": 5,
+    "post_requests_count": 2
+}

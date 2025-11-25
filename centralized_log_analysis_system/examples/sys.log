@@ -1,0 +1,18 @@
+Nov 24 11:00:01 systemd[1]: Starting Daily apt download activities...
+Nov 24 11:00:02 kernel: CPU0: Temperature above threshold, cpu clock throttled
+Nov 24 11:00:03 kernel: Memory cgroup out of memory: Kill process 1999 (python3)
+Nov 24 11:00:05 systemd[1]: Failed to start nginx.service: Unit nginx.service entered failed state.
+Nov 24 11:00:08 CRON[2299]: (root) CMD (apt-get update)
+Nov 24 11:00:10 systemd[1]: nginx.service: Scheduled restart job, restart counter is at 3.
+Nov 24 11:00:14 systemd[1]: nginx.service: Start request repeated too quickly.
+warning
+warning
+warning
+warning
+warning
+warning
+warning
+warning
+warning
+warning
+warning

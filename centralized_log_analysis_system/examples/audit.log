@@ -1,0 +1,5 @@
+type=USER_LOGIN msg=audit(1669191123.555:210): user=khaled uid=1000 exe="/usr/bin/ssh" success=yes
+type=USER_CMD msg=audit(1669191143.112:211): user=root cmd="apt install nginx"
+type=USER_CMD msg=audit(1669191178.718:212): user=root cmd="systemctl restart nginx"
+type=USER_LOGOUT msg=audit(1669191210.992:213): user=khaled uid=1000
+type=ANOM_PROMISCUOUS msg=audit(1669191303.991:214): dev=wlp3s0 old_prom=0 new_prom=1

@@ -1,0 +1,36 @@
+192.168.1.10 - - [24/Nov/2025:12:10:01 +0000] "GET /index.html HTTP/1.1" 200 1024
+192.168.1.11 - - [24/Nov/2025:12:10:03 +0000] "POST /login HTTP/1.1" 401 512
+192.168.1.12 - - [24/Nov/2025:12:10:05 +0000] "GET /dashboard HTTP/1.1" 500 2048
+192.168.1.10 - - [24/Nov/2025:12:10:01 +0000] "GET /index.html HTTP/1.1" 200 1024
+192.168.1.13 - - [24/Nov/2025:12:10:06 +0000] "GET /favicon.ico HTTP/1.1" 404 256
+81.31.22.17 - - [24/Nov/2025:12:10:10 +0000] "POST /api/upload HTTP/1.1" 403 128
+192.168.1.10 - - [24/Nov/2025:12:10:01 +0000] "GET /index.html HTTP/1.1" 200 1024
+
+2025-11-24 12:00:01,124 [INFO] Starting background worker...
+2025-11-24 12:00:02,321 [WARNING] Slow DB query detected (420ms)
+2025-11-24 12:00:03,441 [ERROR] Failed to connect to Redis
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:06,221 [INFO] Background worker stopped.
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:04,663 [INFO] Retrying Redis connection...
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:03,441 [ERROR] Failed to connect to Redis
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:06,221 [INFO] Background worker stopped.
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:04,663 [INFO] Retrying Redis connection...
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
+2025-11-24 12:00:05,112 [ERROR] Redis connection timeout
