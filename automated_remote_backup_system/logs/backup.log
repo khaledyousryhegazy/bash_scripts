@@ -1,0 +1,7 @@
+[*][INFO] Starting backup process
+[*][INFO] Found 1 servers, Start Checking ...
+receiving incremental file list
+
+sent 20 bytes  received 166 bytes  53.14 bytes/sec
+total size is 261,453  speedup is 1,405.66
+[*][INFO] Process completed Successfully.

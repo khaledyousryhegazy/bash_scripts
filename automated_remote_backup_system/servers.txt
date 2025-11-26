@@ -1,0 +1,5 @@
+# my pc
+localhost
+
+# another server
+172.168.1.10
